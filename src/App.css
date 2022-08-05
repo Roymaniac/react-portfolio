@@ -121,7 +121,7 @@ nav ul li:nth-child(2) {
 
 
 #git-btn {
-  margin-left: 90px;
+  margin-left: 33px;
 }
 
 #gtb {
@@ -194,7 +194,7 @@ nav ul li:nth-child(2) {
   text-align: center;
 }
 
-.col-lg-4 {
+.col-md-4 {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -221,7 +221,7 @@ nav ul li:nth-child(2) {
   ;
 }
 
-.col-lg-4 .h4-title {
+.col-md-4 .h4-title {
   width: 351.33px;
   height: 19px;
   font-family: 'Inter';

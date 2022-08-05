@@ -17,7 +17,7 @@ export default function Section() {
 
         <div className="my-container-2">
           <div className="row gap-4">
-            <div className="col-lg-4 box">
+            <div className="col-md-4 box">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size mb-3">Responsive beyond 9-5</p>
@@ -28,7 +28,7 @@ export default function Section() {
             </div>
 
             {/* Second row */}
-            <div className="col-lg-4 box">
+            <div className="col-md-4 box">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size mb-5">Up to date with the latest trends</p>
@@ -39,7 +39,7 @@ export default function Section() {
             </div>
 
             {/* Third row */}
-            <div className="col-lg-4 box">
+            <div className="col-md-4 box">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size mb-5">1 Free Week Trial and Low Pricing</p>
@@ -61,7 +61,7 @@ export default function Section() {
         <div className="my-container mb-6">
           <div className="row gap-4">
             {/* First row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">UX/UI Design</p>
@@ -79,7 +79,7 @@ export default function Section() {
             </div>
 
             {/* Second row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Branding</p>
@@ -95,7 +95,7 @@ export default function Section() {
             </div>
 
             {/* Third row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Front-end Development</p>
@@ -111,7 +111,7 @@ export default function Section() {
             </div>
 
             {/* Fourth row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Graphics</p>
@@ -127,7 +127,7 @@ export default function Section() {
             </div>
 
             {/* Fifth row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">SEO Writer</p>
@@ -143,7 +143,7 @@ export default function Section() {
             </div>
 
             {/* Sixth row */}
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Digital Marketing</p>

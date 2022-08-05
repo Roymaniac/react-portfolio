@@ -4,7 +4,7 @@ import logo from "../images/logo.svg";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top bg-">
+    <nav className="navbar navbar-expand-lg fixed-to">
       <ul>
         <li>
           <img src={logo} className="App-logo" alt="logo" />
