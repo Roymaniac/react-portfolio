@@ -199,30 +199,30 @@ nav ul li:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 46px;
-  gap: 4px;
-  width: 423.33px;
+  padding: 36px;
+  gap: 0px;
+  width: 463.33px;
   height: 306px;
   /* background: #1F2643; */
-  border: 2px solid #545E86;
-  border-radius: 8px;
+  border: 1px solid #545E86;
+  border-radius: 5px;
 
 }
 
 .size {
-  width: 351.33px;
+  width: 301.33px;
   height: 29px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 29px;
   color: #FFFFFF;
   ;
 }
 
 .col-md-4 .h4-title {
-  width: 351.33px;
+  width: 301.33px;
   height: 19px;
   font-family: 'Inter';
   font-style: normal;
@@ -241,21 +241,18 @@ nav ul li:nth-child(2) {
 
 .my-container {
   max-width: 1440px !important;
-  width: 100%;
-  width: 100%;
+  width: 96%;
   padding-right: 25px;
-  padding-left: 65px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-left: 25px;
+  margin: auto;
 }
 
 .my-container-2 {
   max-width: 1440px !important;
   width: 100%;
   padding-right: 25px;
-  padding-left: 35px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-left: 25px;
+  margin: auto;
 }
 
 .p-title {
@@ -282,6 +279,7 @@ nav ul li:nth-child(2) {
   border: 2px solid #545E86;
   border-radius: 8px;
   padding: 0px;
+  margin-bottom: 20px;
 }
 
 .case {
@@ -292,9 +290,14 @@ nav ul li:nth-child(2) {
   /* position: absolute; */
   width: 100%;
   padding: 0px;
+  margin: 0px;
   margin-left: 0px;
   height: 360px;
   margin-bottom: 25px;
+}
+
+#gtb:hover {
+  background: #28C9D3;
 }
 
 .case-title {
@@ -320,9 +323,10 @@ nav ul li:nth-child(2) {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
-  padding-top: 35px;
+  padding-top: 28px;
   padding-left: 20px;
   margin-left: 14px;
+  margin-bottom: 10px;
 }
 
 .case .product {
@@ -345,6 +349,7 @@ nav ul li:nth-child(2) {
 
 .case .pad {
   padding-left: 30px;
+  margin-bottom: 20px;
 }
 
 .bg-footer {
@@ -388,4 +393,20 @@ nav ul li:nth-child(2) {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+
+.flex-1 .text-grad {
+  color: #AAF3FB;
+}
+
+.flex-1 .text-grad,
+.flex-1 .text-white {
+  width: 646px;
+  height: 177px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px
 }

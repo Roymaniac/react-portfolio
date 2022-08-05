@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import About from "./components/About";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
@@ -12,10 +13,10 @@ function App() {
         <Header />
         <Hero />
       </div>
-        <Section/>
-        <Footer/>
+      <About />
+      <Section />
+      <Footer />
     </div>
-
   );
 }
 

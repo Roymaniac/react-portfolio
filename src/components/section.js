@@ -58,10 +58,10 @@ export default function Section() {
             My <span id="text-other">Services</span>
           </p>
         </div>
-        <div className="my-container mb-3">
-          <div className="d-flex justify-content-evenly">
+        <div className="container-fluid  mb-3">
+          <div className="d-flex justify-content-center">
             {/* First row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">UX/UI Design</p>
@@ -79,7 +79,7 @@ export default function Section() {
             </div>
 
             {/* Second row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Branding</p>
@@ -95,7 +95,7 @@ export default function Section() {
             </div>
 
             {/* Third row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Front-end Development</p>
@@ -110,9 +110,9 @@ export default function Section() {
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-evenly">
+          <div className="d-flex justify-content-center">
             {/* Fourth row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Graphics</p>
@@ -128,7 +128,7 @@ export default function Section() {
             </div>
 
             {/* Fifth row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">SEO Writer</p>
@@ -144,7 +144,7 @@ export default function Section() {
             </div>
 
             {/* Sixth row */}
-            <div className="col-md-4">
+            <div className="col-md-4 col mx-lg-2">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
                 <p className="size">Digital Marketing</p>
@@ -165,11 +165,11 @@ export default function Section() {
         </div>
       </div>
 
-      <div className="my-container  portfolio">
+      <div className="my-container portfolio">
         <h3 className="p-title">My Works That Cut Through The Nose</h3>
-        <div className="row gap-4">
+        <div className="row gap-3">
           {/* First case-study */}
-          <div className="case col">
+          <div className="case col mb-3">
             <div className="text-left mx-auto m-lg-0">
               <img src={kartlog} alt="" />
               <div className="product-2">
