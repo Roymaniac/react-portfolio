@@ -60,8 +60,11 @@ export default function Footer() {
             <li className="mb-3">
               <p>We offer a free consultation for our customers</p>
             </li>
-            <li className="nav-item mb-2 text-other">
+            <h4 className="nav-item mb-1 texting p-title-2">
               Get a Free Consultation
+            </h4>
+            <li className="nav-item mb-2">
+            +2349055016590
             </li>
           </ul>
         </div>

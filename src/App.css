@@ -5,7 +5,7 @@
   background-color: #1F2643;
 }
 
-*{
+* {
   /* box-sizing: border-box; */
   margin: 0px;
   padding: 0px;
@@ -347,7 +347,7 @@ nav ul li:nth-child(2) {
   padding-left: 30px;
 }
 
-.bg-footer {  
+.bg-footer {
   background: #2E3658;
   margin-top: 80px;
 }
@@ -357,10 +357,35 @@ nav ul li:nth-child(2) {
   width: 223px;
 }
 
-.case-study{
+.case-study {
   margin-bottom: 100px;
 }
 
-.box{
+.box {
   border: none;
+}
+
+/* 
+.texting {
+  width: 236px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+} */
+
+.p-title-2 {
+  width: 236px;
+  height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  background: linear-gradient(90deg, #ABC8FF 0%, #9CFFED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
