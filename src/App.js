@@ -12,9 +12,10 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <Section />
-      <Footer />
+        <Section/>
+        <Footer/>
     </div>
+
   );
 }
 

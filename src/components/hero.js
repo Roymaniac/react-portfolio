@@ -6,7 +6,8 @@ export default function Hero() {
   return (
     <div>
       {/* first flex */}
-      <div className="container-fluid ">
+
+      <div className="container-fluid">
         <div className="d-flex mx-auto">
           <div className="flex-1">
             <h1 className="text-blue">

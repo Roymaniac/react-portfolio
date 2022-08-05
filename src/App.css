@@ -5,8 +5,10 @@
   background-color: #1F2643;
 }
 
-* {
-  box-sizing: border-box;
+*{
+  /* box-sizing: border-box; */
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -25,7 +27,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 156vh;
+  height: 155vh;
+  width: 100%;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
@@ -82,7 +85,7 @@ nav ul li:nth-child(2) {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px !important;
-  margin: 0 auto;
+  margin: 0px auto;
   /* z-index: ; */
 }
 
@@ -143,11 +146,12 @@ nav ul li:nth-child(2) {
 }
 
 .d-flex {
-  margin-top: 90px;
+  margin-top: 190px;
+  /* z-index: 1; */
 }
 
 
-.section-title {}
+/* .section-title {} */
 
 .container-fluid-2 h2 .text-white {
   color: #FFFFFF;
@@ -245,6 +249,15 @@ nav ul li:nth-child(2) {
   margin-left: auto;
 }
 
+.my-container-2 {
+  max-width: 1440px !important;
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .p-title {
   margin: 80px auto 50px;
   width: 668px;
@@ -334,28 +347,20 @@ nav ul li:nth-child(2) {
   padding-left: 30px;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 61px 96px;
-  gap: 10px;
-  position: absolute;
-  width: 1440px;
-  height: 307px;
-  left: 0px;
-  bottom: 0px;
-  background: #1F2643;
-  border: 2px solid
+.bg-footer {  
+  background: #2E3658;
+  margin-top: 80px;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 80px;
-  width: 1022px;
-  height: 185px;
+.row-cols-6>* {
+  flex: 0 0 auto;
+  width: 223px;
+}
+
+.case-study{
+  margin-bottom: 100px;
+}
+
+.box{
+  border: none;
 }

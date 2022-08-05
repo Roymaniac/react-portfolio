@@ -14,6 +14,42 @@ export default function Section() {
           <span className="text-white">Not Your Typical Designer</span>
           <span className="text-grad"> and Front-end Developer</span>
         </h2>
+
+        <div className="my-container-2">
+          <div className="row gap-4">
+            <div className="col-lg-4 box">
+              <div className="text-left mx-auto m-4 m-lg-0">
+                <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
+                <p className="size mb-3">Responsive beyond 9-5</p>
+                <h3 className="h4-title">
+                  Yes, I work between Monday and Sunday.{" "}
+                </h3>
+              </div>
+            </div>
+
+            {/* Second row */}
+            <div className="col-lg-4 box">
+              <div className="text-left mx-auto m-4 m-lg-0">
+                <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
+                <p className="size mb-5">Up to date with the latest trends</p>
+                <h3 className="h4-title">
+                  Yes, i work between Monday and Sunday.{" "}
+                </h3>
+              </div>
+            </div>
+
+            {/* Third row */}
+            <div className="col-lg-4 box">
+              <div className="text-left mx-auto m-4 m-lg-0">
+                <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
+                <p className="size mb-5">1 Free Week Trial and Low Pricing</p>
+                <h3 className="h4-title">
+                  i understand that everyone’s needs are different.{" "}
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container images">
           <img src={planet} alt="" />
         </div>
@@ -23,8 +59,8 @@ export default function Section() {
           </p>
         </div>
         <div className="my-container mb-6">
-          {/* First row */}
           <div className="row gap-4">
+            {/* First row */}
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
@@ -46,10 +82,8 @@ export default function Section() {
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
-                <p className="size">UX/UI Design</p>
-                <h3 className="h4-title">
-                  Turning Imaginations into reacting.{" "}
-                </h3>
+                <p className="size">Branding</p>
+                <h3 className="h4-title">Brand your designs with us </h3>
                 <Button
                   variant="outline-light"
                   size="lg"
@@ -64,10 +98,8 @@ export default function Section() {
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
-                <p className="size">UX/UI Design</p>
-                <h3 className="h4-title">
-                  Turning Imaginations into reacting.{" "}
-                </h3>
+                <p className="size">Front-end Development</p>
+                <h3 className="h4-title">Bring your designs to Life. </h3>
                 <Button
                   variant="outline-light"
                   size="lg"
@@ -78,14 +110,12 @@ export default function Section() {
               </div>
             </div>
 
-            {/* Third row */}
+            {/* Fourth row */}
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
-                <p className="size">UX/UI Design</p>
-                <h3 className="h4-title">
-                  Turning Imaginations into reacting.{" "}
-                </h3>
+                <p className="size">Graphics</p>
+                <h3 className="h4-title">Creativity at peak </h3>
                 <Button
                   variant="outline-light"
                   size="lg"
@@ -96,14 +126,12 @@ export default function Section() {
               </div>
             </div>
 
-            {/* Third row */}
+            {/* Fifth row */}
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
-                <p className="size">UX/UI Design</p>
-                <h3 className="h4-title">
-                  Turning Imaginations into reacting.{" "}
-                </h3>
+                <p className="size">SEO Writer</p>
+                <h3 className="h4-title">Best article writer. </h3>
                 <Button
                   variant="outline-light"
                   size="lg"
@@ -114,14 +142,12 @@ export default function Section() {
               </div>
             </div>
 
-            {/* Third row */}
+            {/* Sixth row */}
             <div className="col-lg-4">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
-                <p className="size">UX/UI Design</p>
-                <h3 className="h4-title">
-                  Turning Imaginations into reacting.{" "}
-                </h3>
+                <p className="size">Digital Marketing</p>
+                <h3 className="h4-title">Market your product with me. </h3>
                 <Button
                   variant="outline-light"
                   size="lg"
@@ -170,7 +196,7 @@ export default function Section() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center">
+          <div className="d-flex case-study justify-content-center">
             <MyButton name="View All Case Study" />
           </div>
         </div>
