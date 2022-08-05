@@ -1,27 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
 .App {
-  text-align: center;
+  background-color: #1F2643;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 12vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-image: url('./images/Background.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 156vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+  /* position: fixed; */
 }
 
 .App-link {
@@ -32,7 +43,319 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 30px 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+nav {
+  padding: 0px;
+}
+
+
+nav ul li:nth-child(2) {
+  margin-left: 150px;
+}
+
+.hero-text {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  /* margin: 3px auto 10px; */
+  padding: 20px 50px;
+  background-image: url('./images/Bubbles.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px !important;
+  margin: 0 auto;
+  /* z-index: ; */
+}
+
+.container-fluid .text-blue {
+  color: #ABC8FF;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.text-blue,
+.text-white {
+  width: 668px;
+  height: 288px;
+}
+
+.container-fluid .text-white,
+.container-fluid-2 .text-white p {
+  color: #FFFFFF;
+}
+
+
+.container-fluid #hero-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  width: 534px;
+  height: 76px;
+}
+
+
+#git-btn {
+  margin-left: 90px;
+}
+
+#gtb {
+  background: linear-gradient(90deg, #ABC8FF 0%, #9CFFED 100%);
+}
+
+.container-fluid-2 h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 150px;
+  margin: 0px 280px 0px;
+}
+
+.container-fluid-2 .text-grad {
+  width: 668px;
+  height: 288px;
+  color: #AAF3FB;
+}
+
+.d-flex {
+  margin-top: 90px;
+}
+
+
+.section-title {}
+
+.container-fluid-2 h2 .text-white {
+  color: #FFFFFF;
+
+}
+
+.container-fluid-2 {
+  margin: 0 auto;
+}
+
+.images {
+  justify-content: center;
+  width: 80%;
+  background-image: url('./images/Bubbles.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* z-index: -1; */
+}
+
+.images img {
+  max-width: 65%;
+  align-self: center;
+  margin: 5px 220px 5px;
+}
+
+#text-other {
+  color: #ABC8FF;
+}
+
+.slogan {
+  margin: 30px auto 20px;
+  color: #FFFFFF;
+  width: 668px;
+  height: 59px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.col-lg-4 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 46px;
+  gap: 44px;
+  width: 423.33px;
+  height: 306px;
+  /* background: #1F2643; */
+  border: 2px solid #545E86;
+  border-radius: 8px;
+
+}
+
+.size {
+  width: 351.33px;
+  height: 29px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  ;
+}
+
+.col-lg-4 .h4-title {
+  width: 351.33px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  ;
+}
+
+
+.row {
+  margin: 0px 20px 20px 0px;
+  padding: 5px;
+}
+
+.my-container {
+  max-width: 1440px !important;
+  width: 100%;
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p-title {
+  margin: 80px auto 50px;
+  width: 668px;
+  height: 88px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  background: linear-gradient(90deg, #FFFFFF 0%, #9CFFED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.case {
+  box-sizing: border-box;
+  width: 647px;
+  height: 630px;
+  background: #020204;
+  border: 2px solid #545E86;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.case {
+  margin: 0;
+}
+
+.case img {
+  /* position: absolute; */
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+  height: 360px;
+  margin-bottom: 25px;
+}
+
+.case-title {
+  width: 370.06px;
+  height: 29px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  /* text-align: center; */
+  display: inline-block;
+  margin: 10px 120px;
+}
+
+.case-p {
+  width: 381px;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-top: 35px;
+  padding-left: 20px;
+  margin-left: 14px;
+}
+
+.case .product {
+  width: 94.94px;
+  height: 60px;
+  background: url('./images/Evergreen_logo_small_white\ 1\ 1.png');
+  opacity: 0.75;
+  padding: 8px;
+  margin-left: 23px;
+}
+
+.case .product-2 {
+  width: 94.94px;
+  height: 60px;
+  background: url('./images/kart.png');
+  opacity: 0.75;
+  padding: 8px;
+  margin-left: 30px;
+}
+
+.case .pad {
+  padding-left: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 61px 96px;
+  gap: 10px;
+  position: absolute;
+  width: 1440px;
+  height: 307px;
+  left: 0px;
+  bottom: 0px;
+  background: #1F2643;
+  border: 2px solid
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+  width: 1022px;
+  height: 185px;
 }
