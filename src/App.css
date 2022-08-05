@@ -410,3 +410,23 @@ nav ul li:nth-child(2) {
   font-size: 48px;
   line-height: 59px
 }
+
+
+.flex-1 #about-text {
+  width: 646px;
+  height: 220px;
+  font-family: 'Paragraph';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+
+.flex-2 img {
+  /* position: absolute; */
+  width: 591.98px;
+  height: 769px;
+  margin-left: 14px;
+}
