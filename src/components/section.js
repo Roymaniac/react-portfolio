@@ -16,7 +16,7 @@ export default function Section() {
         </h2>
 
         <div className="my-container-2">
-          <div className="row gap-4">
+          <div className="d-flex justify-content-evenly">
             <div className="col-md-4 box">
               <div className="text-left mx-auto m-4 m-lg-0">
                 <img src={clock} alt="" className=" d-none d-xl-block mb-4" />
@@ -58,8 +58,8 @@ export default function Section() {
             My <span id="text-other">Services</span>
           </p>
         </div>
-        <div className="my-container mb-6">
-          <div className="row gap-4">
+        <div className="my-container mb-3">
+          <div className="d-flex justify-content-evenly">
             {/* First row */}
             <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
@@ -109,7 +109,8 @@ export default function Section() {
                 </Button>
               </div>
             </div>
-
+          </div>
+          <div className="d-flex justify-content-evenly">
             {/* Fourth row */}
             <div className="col-md-4">
               <div className="text-left mx-auto m-4 m-lg-0">
@@ -168,7 +169,7 @@ export default function Section() {
         <h3 className="p-title">My Works That Cut Through The Nose</h3>
         <div className="row gap-4">
           {/* First case-study */}
-          <div className="case">
+          <div className="case col">
             <div className="text-left mx-auto m-lg-0">
               <img src={kartlog} alt="" />
               <div className="product-2">
@@ -182,7 +183,7 @@ export default function Section() {
           </div>
 
           {/* Second case-study */}
-          <div className="case">
+          <div className="case col">
             <div className="text-left mx-auto m-lg-0">
               <img src={kartlog} alt="" />
               <div className="product">

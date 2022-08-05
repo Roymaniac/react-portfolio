@@ -146,7 +146,7 @@ nav ul li:nth-child(2) {
 }
 
 .d-flex {
-  margin-top: 190px;
+  margin-top: 15px;
   /* z-index: 1; */
 }
 
@@ -195,12 +195,12 @@ nav ul li:nth-child(2) {
 }
 
 .col-md-4 {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 46px;
-  gap: 44px;
+  gap: 4px;
   width: 423.33px;
   height: 306px;
   /* background: #1F2643; */
@@ -275,9 +275,9 @@ nav ul li:nth-child(2) {
 }
 
 .case {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 647px;
-  height: 630px;
+  height: 600px;
   background: #020204;
   border: 2px solid #545E86;
   border-radius: 8px;
